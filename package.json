@@ -8,9 +8,18 @@
   },
   "license": "MIT",
   "keywords": [
-    "joplin-plugin"
+    "joplin-plugin",
+    "bytefield-svg",
+    "bytefield",
+    "svg",
+    "diagram",
+    "network",
+    "memory",
+    "binary",
+    "structure"
   ],
   "devDependencies": {
+    "@types/markdown-it": "^12.2.3",
     "@types/node": "^14.0.14",
     "chalk": "^4.1.0",
     "copy-webpack-plugin": "^6.1.0",
@@ -23,5 +32,8 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "yargs": "^16.2.0"
+  },
+  "dependencies": {
+    "bytefield-svg": "^1.6.0"
   }
 }
