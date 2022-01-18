@@ -14,11 +14,23 @@ export default function (context: { contentScriptId: string }) {
                 const token = tokens[idx]
                 // console.log('token', token)
                 if (!fenceNameRegExp.test(token.info)) return defaultRender(tokens, idx, options, env, self)
-                return `
-                <div class="bytefield-svg-container">
-                    ${bytefieldSvg(token.content, { embedded: true })}
-                </div>
-                `
+
+                try {
+                    const diagram = bytefieldSvg(token.content, { embedded: true })
+                    return `
+                    <div class="bytefield-svg-container">
+                        ${diagram}
+                    </div>
+                    `
+                } catch (e) {
+                    // console.error(e)
+                    const errorMessage = e.message || 'Unknown error'
+                    return `
+                    <div class="bytefield-svg-container">
+                        <p><strong>Bytefield-svg rendering error:</strong> ${errorMessage}</p>
+                    </div>
+                    `
+                }
             }
         },
         assets: function () {
