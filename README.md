@@ -3,6 +3,7 @@
 This plugin allows you to create diagrams uing the syntax defined in [https://bytefield-svg.deepsymmetry.org](https://bytefield-svg.deepsymmetry.org).
 This type of diagram is usually used to describe network protocols, memory layouts, and other data structures.
 
+This plugin don't need an internet connection to work.
 
 ## Install the plugin
 
