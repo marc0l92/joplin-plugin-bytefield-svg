@@ -1,6 +1,6 @@
 # Joplin Plugin - bytefield-svg
 
-This plugin allows you to create diagrams uing the syntax defined in [https://bytefield-svg.deepsymmetry.org](https://bytefield-svg.deepsymmetry.org).
+This plugin allows you to create diagrams using the syntax defined in [https://bytefield-svg.deepsymmetry.org](https://bytefield-svg.deepsymmetry.org).
 This type of diagram is usually used to describe network protocols, memory layouts, and other data structures.
 
 This plugin don't need an internet connection to work.
@@ -46,7 +46,7 @@ Rendering example:
 If you don't remember the syntax to create a bytefield-svg diagram you can use the templates in the tools menu.
 
 # Development
-If you want to contribute to this plugin you can find here some userful references:
+If you want to contribute to this plugin you can find here some useful references:
 
 - [Joplin - Getting started with plugin development](https://joplinapp.org/api/get_started/plugins/)
 - [Joplin - Plugin API reference](https://joplinapp.org/api/references/plugin_api/classes/joplin.html)
