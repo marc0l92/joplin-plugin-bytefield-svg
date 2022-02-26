@@ -40,7 +40,7 @@ Rendering example:
 
 ![Rendering example](./doc/example1.png)
 
-# Other funcitonalities
+# Other functionalities
 
 ## Menu shortcuts
 If you don't remember the syntax to create a bytefield-svg diagram you can use the templates in the tools menu.
